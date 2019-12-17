@@ -2,13 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31d8943f-8aed-4226-acca-d0b59a28403c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/roleBased/cms/configuration/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/roleBased/cms/configuration/ApplicationConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/roleBased/cms/configuration/CustomSuccessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/roleBased/cms/configuration/SecurityConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/roleBased/cms/configuration/SecurityWebApplicationInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/roleBased/cms/controller/SercurityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/spring-role-based-authorization-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/roleBased/cms/configuration/AppInitializer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/roleBased/cms/configuration/ApplicationConfiguration.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/roleBased/cms/configuration/CustomSuccessHandler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/roleBased/cms/configuration/SecurityConfiguration.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/roleBased/cms/configuration/SecurityWebApplicationInitializer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/roleBased/cms/controller/SercurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/accessDenied.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dba.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +176,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -158,7 +195,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576546251939</updated>
-      <workItem from="1576546254909" duration="5631000" />
+      <workItem from="1576546254909" duration="7741000" />
     </task>
     <servers />
   </component>
@@ -174,54 +211,58 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="801" y="259" width="374" height="587" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1576548987702" />
-    <state width="1244" height="245" key="GridCell.Tab.0.bottom" timestamp="1576551995711">
+    <state x="244" y="59" width="1488" height="986" key="CommitChangelistDialog2" timestamp="1576552975470">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="245" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576551995711" />
-    <state width="1244" height="245" key="GridCell.Tab.0.center" timestamp="1576551995711">
+    <state x="244" y="59" width="1488" height="986" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1576552975470" />
+    <state width="1244" height="245" key="GridCell.Tab.0.bottom" timestamp="1576557956544">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="245" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576551995711" />
-    <state width="1244" height="245" key="GridCell.Tab.0.left" timestamp="1576551995711">
+    <state width="1244" height="245" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576557956544" />
+    <state width="1244" height="245" key="GridCell.Tab.0.center" timestamp="1576557956544">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="245" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576551995711" />
-    <state width="1244" height="245" key="GridCell.Tab.0.right" timestamp="1576551995711">
+    <state width="1244" height="245" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576557956544" />
+    <state width="1244" height="245" key="GridCell.Tab.0.left" timestamp="1576557956544">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="245" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576551995711" />
-    <state width="1244" height="245" key="GridCell.Tab.1.bottom" timestamp="1576551995712">
+    <state width="1244" height="245" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576557956544" />
+    <state width="1244" height="245" key="GridCell.Tab.0.right" timestamp="1576557956544">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="245" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576551995712" />
-    <state width="1244" height="245" key="GridCell.Tab.1.center" timestamp="1576551995712">
+    <state width="1244" height="245" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576557956544" />
+    <state width="1244" height="245" key="GridCell.Tab.1.bottom" timestamp="1576557956422">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="245" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576551995712" />
-    <state width="1244" height="245" key="GridCell.Tab.1.left" timestamp="1576551995712">
+    <state width="1244" height="245" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576557956422" />
+    <state width="1244" height="245" key="GridCell.Tab.1.center" timestamp="1576557956422">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="245" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576551995712" />
-    <state width="1244" height="245" key="GridCell.Tab.1.right" timestamp="1576551995712">
+    <state width="1244" height="245" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576557956422" />
+    <state width="1244" height="245" key="GridCell.Tab.1.left" timestamp="1576557956422">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="245" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576551995712" />
-    <state width="1244" height="245" key="GridCell.Tab.2.bottom" timestamp="1576551995713">
+    <state width="1244" height="245" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576557956422" />
+    <state width="1244" height="245" key="GridCell.Tab.1.right" timestamp="1576557956422">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="245" key="GridCell.Tab.2.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576551995713" />
-    <state width="1244" height="245" key="GridCell.Tab.2.center" timestamp="1576551995712">
+    <state width="1244" height="245" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576557956422" />
+    <state width="1244" height="245" key="GridCell.Tab.2.bottom" timestamp="1576557956423">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="245" key="GridCell.Tab.2.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576551995712" />
-    <state width="1244" height="245" key="GridCell.Tab.2.left" timestamp="1576551995712">
+    <state width="1244" height="245" key="GridCell.Tab.2.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576557956423" />
+    <state width="1244" height="245" key="GridCell.Tab.2.center" timestamp="1576557956423">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="245" key="GridCell.Tab.2.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576551995712" />
-    <state width="1244" height="245" key="GridCell.Tab.2.right" timestamp="1576551995713">
+    <state width="1244" height="245" key="GridCell.Tab.2.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576557956423" />
+    <state width="1244" height="245" key="GridCell.Tab.2.left" timestamp="1576557956423">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="245" key="GridCell.Tab.2.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576551995713" />
+    <state width="1244" height="245" key="GridCell.Tab.2.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576557956423" />
+    <state width="1244" height="245" key="GridCell.Tab.2.right" timestamp="1576557956423">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="245" key="GridCell.Tab.2.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576557956423" />
     <state x="302" y="119" width="1372" height="867" key="new project wizard" timestamp="1576552568101">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
